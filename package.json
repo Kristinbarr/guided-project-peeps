@@ -2,13 +2,24 @@
   "name": "guided-project-peeps",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kristinbarr/guided-project-peeps.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kristinbarr/guided-project-peeps/issues"
+  },
+  "homepage": "https://github.com/Kristinbarr/guided-project-peeps#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  },
   "dependencies": {
     "express": "^4.17.1"
   }
